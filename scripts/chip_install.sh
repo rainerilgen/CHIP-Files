@@ -18,3 +18,4 @@ service blink start
 
 echo "Installing Squeezelite"
 apt-get install -y squeezelite
+wget -O /etc/init.d/squeezelite https://raw.githubusercontent.com/rainerilgen/CHIP-Files/master/config/squeezelite
