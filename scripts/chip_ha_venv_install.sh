@@ -19,6 +19,7 @@ After=network.target
 Type=simple
 User=chip
 ExecStart=/srv/hass/bin/hass
+Restart=always
 
 [Install]
 WantedBy=multi-user.target
